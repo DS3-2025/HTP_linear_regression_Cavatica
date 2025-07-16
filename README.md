@@ -9,8 +9,9 @@
    Set Billing group (e.g. Pilot Funds, DS3_2025) and Location (e.g. AWS (us-east-1). 
    Select 'Spot Instances' if desired. 
 4. On <ins>Advanced settings</ins> tab:  
-   >[!IMPORTANT]
-   >Select 'Allow network access'.  
+   Select 'Allow network access' (IMPORTANT).  
+>[!IMPORTANT]
+>If you do not allow network access you will be unable to install R packages or clone the code repository 
 5. Click Create.
 6. You should then be taken to the Dashboard for your new project.  
    You may want to edit the project description.  
