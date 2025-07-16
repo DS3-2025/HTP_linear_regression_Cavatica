@@ -1,21 +1,23 @@
 # R-based analysis of INCLUDE data on Cavatica
 
-## Creating a Cavatica Project
+## Creating a Cavatica Project  
+### Location: [Cavatica](https://cavatica.sbgenomics.com/)  
+(must be logged in)  
 1. Go to *Projects* tab > Create a project.
 2. Enter a project name.
-3. Under General information:  
-   Set Billing group (e.g. Pilot Funds, DS3_2024). 
-   Set Spot Instances if desired. 
-4. Under Advanced settings:  
-   Allow network access (IMPORTANT).  
+3. On <ins>General information</ins> tab:  
+   Set Billing group (e.g. Pilot Funds, DS3_2025) and Location (e.g. AWS (us-east-1). 
+   Select 'Spot Instances' if desired. 
+4. In <ins>Advanced settings<ins> tab:  
+   Select 'Allow network access' (IMPORTANT).  
 5. Click Create.
 6. You should then be taken to the Dashboard for your new project.  
    You may want to edit the project description.  
 
 
-## Pushing data from the INCLUDE Data Hub to Cavatica
-
-### INCLUDE Data Hub
+## 'Pushing' data from the INCLUDE Data Hub to Cavatica  
+### Location: [INCLUDE Data Hub](https://portal.includedcc.org/)  
+(must be logged in)  
 1. Connect your INCLUDE and Cavatica accounts  
 Within the Data Hub, ensure you are (still) connected to Cavatica:   
 Dashboard > Cavatica Projects > Connect. 
@@ -31,7 +33,7 @@ Dashboard > Cavatica Projects > Connect.
    Select the Cavatica Project to which you want to copy files.  
    Click on Copy files.  
 
-### Cavatica
+### Location: [Cavatica](https://cavatica.sbgenomics.com/)  
 Within Cavatica, ensure you are (still) connected to the INCLUDE Data Hub:  
 Account Settings > Dataset Access > INCLUDE DRS Server > Connect / Reconnect.  
 
