@@ -9,9 +9,9 @@
    Set Billing group (e.g. Pilot Funds, DS3_2025) and Location (e.g. AWS (us-east-1).  
    Select 'Spot Instances' if desired. 
 4. On <ins>Advanced settings</ins> tab:  
-   Select 'Allow network access' (IMPORTANT).  
+   Select 'Allow network access'.  
 >[!IMPORTANT]
->If you do not allow network access you will be unable to install R packages or clone the code repository 
+>If you do not allow network access you will be unable to install R packages or clone the code repository.  
 5. Click Create.
 6. You should then be taken to the Dashboard for your new project.  
    You may want to edit the project description.  
@@ -24,7 +24,7 @@
 Within the Data Hub, ensure you are (still) connected to Cavatica:   
 Dashboard > Cavatica Projects > Connect. 
 >[!IMPORTANT]
->You will need to have two-factor authentication enabled for your Cavatica account or you will get an error 
+>You will need to have two-factor authentication enabled for your Cavatica account or you will get an error at this point.  
 2. For this example, filter to HTP MSD data files (n = 477).  
    Data Exploration > Participant > Study Code = HTP.  
    Data Exploration > Biospecimen > Sample Type = Plasma.  
@@ -36,8 +36,9 @@ Dashboard > Cavatica Projects > Connect.
    Click on Copy files.  
 
 ### Location: [Cavatica](https://cavatica.sbgenomics.com/)  
-Within Cavatica, ensure you are (still) connected to the INCLUDE Data Hub:  
-Account Settings > Dataset Access > INCLUDE DRS Server > Connect / Reconnect.  
+>[!IMPORTANT]
+>Within Cavatica, ensure you are (still) connected to the INCLUDE Data Hub:  
+>Account Settings > Dataset Access > INCLUDE DRS Server > Connect / Reconnect.  
 
 5. Go to the project to which you copied the files.  
    The copied files should now be available in the *Files* tab.  
