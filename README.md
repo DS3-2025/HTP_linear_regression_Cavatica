@@ -83,18 +83,18 @@ Dashboard > Cavatica Projects > Connect.
 > ## Working with RStudio sessions in Data Studio
 >* Once Data Studio instances are terminated, after idle timeout or manually, the R environment does not persist (including any newly installed R packages).
 >  However, running `renv::restore()` will reinstall packages from local project cache based on `renv.lock` file.  
-
-* Data Studio working dir is:  
-  `/sbgenomics/workspace`  
-  R Project working directory will usually be:  
-  `/sbgenomics/workspace/<R_PROJECT_NAME>`  
-  Files in these directories can be previewed, but not accessed, by clicking on the *Analysis Name* in the *Data Studio* tab.
-
-* Cavatica Project *Files* (eg files transferred from INCLUDE Data Hub) can be accessed here:  
-  `/sbgenomics/project-files`  
-  This directory is read-only from within Data Studio
-
-* To be accessible outside Data Studio, via the *Files* tab in your Cavatica Project, files will need to be copied to: 
-  `/sbgenomics/output-files/`  
-  Any files or dirs copied to this location **will not be accessible until after the Data Studio instance is terminated**.  
-  Saving of these files upon termination ~~may~~ will take several minutes.
+>
+>* Data Studio working dir is:  
+>  `/sbgenomics/workspace`  
+>  R Project working directory will usually be:  
+>  `/sbgenomics/workspace/<R_PROJECT_NAME>`  
+>  Files in these directories can be previewed, but not accessed, by clicking on the *Analysis Name* in the *Data Studio* tab.
+>
+>* Cavatica Project *Files* (eg files transferred from INCLUDE Data Hub) can be accessed here:  
+>  `/sbgenomics/project-files`  
+>  This directory is read-only from within Data Studio
+>
+>* To be accessible outside Data Studio, via the *Files* tab in your Cavatica Project, files will need to be copied to: 
+>  `/sbgenomics/output-files/`  
+>  Any files or dirs copied to this location **will not be accessible until after the Data Studio instance is terminated**.  
+>  Saving of these files upon termination ~~may~~ will take several minutes.
