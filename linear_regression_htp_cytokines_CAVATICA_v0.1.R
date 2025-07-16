@@ -128,6 +128,7 @@ htp_cytokines_data_files <- list.files(
   pattern = "_MSD.tsv.gz",
   full.names = TRUE
   )
+# Then pass the list of file paths to read_tsv() which will combine them and store the file paths as an id
 htp_cytokines_data <- read_tsv(htp_cytokines_data_files, id = "file_path") # may take a few minutes
 # NOTE: suggest writing out combined file to /data so that your project is self-contained
 # subsequent analyses could then read in the combined file instead of re-reading the separate files
