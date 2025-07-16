@@ -43,23 +43,23 @@ Dashboard > Cavatica Projects > Connect.
 5. Go to the project to which you copied the files.  
    The copied files should now be available in the *Files* tab.  
 
-## Using Cavatica/Data Studio
+## Running an analysis in Cavatica using 'Data Studio'
 1. Start an *Analysis* instance.  
 
    a. New *Analysis*:  
       - Go to *Data Studio* tab > Create new analysis.  
-      - Set analysis name.  
-      - Select RStudio (JupyterLab also available).  
-      - Select latest R version in Environment setup (eg R 4.3.2 - BioC 3.18).  
+      - Set analysis name (e.g. "HTP linear regression").  
+      - Select RStudio as your 'Environment' (JupyterLab is also available).  
+      - Select latest R version in 'Environment setup' (eg R 4.4.0 - BioC 3.19).  
       - Select Instance type, Attached Storage, Suspend Time (may affect cost).  
       - Click on Start and wait for instance to initialize.  
 
    b. Existing *Analysis*:  
 
       - Go to *Data Studio* tab.  
-      - Click on Start and wait for instance to initialize.  
+      - Click on Start and wait for instance to initialize (may take several minutes).  
 
-2. You should now be in an RStudio instance.  
+2. You should now be presented with an RStudio instance.  
 
    a. To create a new Project by cloning from Github. 
     
@@ -79,9 +79,10 @@ Dashboard > Cavatica Projects > Connect.
 
 4. Copy R Project to `/sbgenomics/output-files/` for later access/download (see notes below).  
 
-## Tips for working with RStudio sessions in Data Studio
-* Once Data Studio instances are terminated, after idle timeout or manually, the R environment does not persist (including any newly installed R packages).
-  However, running `renv::restore()` will reinstall packages from local project cache based on `renv.lock` file.  
+> [!TIP]
+> ## Working with RStudio sessions in Data Studio
+>* Once Data Studio instances are terminated, after idle timeout or manually, the R environment does not persist (including any newly installed R packages).
+>  However, running `renv::restore()` will reinstall packages from local project cache based on `renv.lock` file.  
 
 * Data Studio working dir is:  
   `/sbgenomics/workspace`  
