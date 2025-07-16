@@ -6,7 +6,7 @@
 1. Go to *Projects* tab > Create a project.
 2. Enter a project name.
 3. On <ins>General information</ins> tab:  
-   Set Billing group (e.g. Pilot Funds, DS3_2025) and Location (e.g. AWS (us-east-1). 
+   Set Billing group (e.g. Pilot Funds, DS3_2025) and Location (e.g. AWS (us-east-1).  
    Select 'Spot Instances' if desired. 
 4. On <ins>Advanced settings</ins> tab:  
    Select 'Allow network access' (IMPORTANT).  
