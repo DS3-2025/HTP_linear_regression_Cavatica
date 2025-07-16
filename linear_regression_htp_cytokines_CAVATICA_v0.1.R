@@ -210,7 +210,7 @@ htp_meta_cytokines_data |>
   facet_wrap(~ Analyte, scales = "free") +
   theme(aspect.ratio = 1.3) +
   labs(
-    title = "Aptamers with most 'extreme' outliers"
+    title = "Features with most 'extreme' outliers"
     )
 #
 
