@@ -31,7 +31,7 @@ Dashboard > Cavatica Projects > Connect.
 3. Go to the <ins>Data Files</ins> tab: Select all files that you want to analyze (should be 477).  
 4. Click on *Analyse in Cavatica* button.  
    Select the Cavatica Project to which you want to copy files.  
-   Click on Copy files.  
+   Click on *Copy files*.  
 
 #### Location: [Cavatica](https://cavatica.sbgenomics.com/)  
 >[!IMPORTANT]
