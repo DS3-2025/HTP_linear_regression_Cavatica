@@ -28,7 +28,7 @@ Dashboard > Cavatica Projects > Connect.
    Data Exploration > Biospecimen > Sample Type = Plasma.  
    Data Exploration > Data File > Experimental Strategy = Multiplex Immunoassay.  
    May want to save Filter...  
-3. Select all files that you want to analyze.  
+3. On <ins>Data Files</ins> tab: Select all files that you want to analyze (should be 477).  
 4. Click on *Analyse in Cavatica* button.  
    Select the Cavatica Project to which you want to copy files.  
    Click on Copy files.  
