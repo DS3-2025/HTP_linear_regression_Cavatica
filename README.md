@@ -1,8 +1,7 @@
 # R-based analysis of INCLUDE data on Cavatica
 
 ## Creating a Cavatica Project  
-### Location: [Cavatica](https://cavatica.sbgenomics.com/)  
-(must be logged in)  
+#### Location: [Cavatica](https://cavatica.sbgenomics.com/) (must be logged in)  
 1. Go to *Projects* tab > Create a project.
 2. Enter a project name.
 3. On <ins>General information</ins> tab:  
@@ -18,13 +17,12 @@
 
 
 ## 'Pushing' data from the INCLUDE Data Hub to Cavatica  
-### Location: [INCLUDE Data Hub](https://portal.includedcc.org/)  
-(must be logged in)  
+#### Location: [INCLUDE Data Hub](https://portal.includedcc.org/) (must be logged in)  
 1. Connect your INCLUDE and Cavatica accounts  
 Within the Data Hub, ensure you are (still) connected to Cavatica:   
 Dashboard > Cavatica Projects > Connect. 
-   >[!IMPORTANT]
-   >You will need to have two-factor authentication enabled for your Cavatica account or you will get an error at this point.  
+>[!IMPORTANT]
+>You will need to have two-factor authentication enabled for your Cavatica account or you will get an error at this point.  
 2. For this example, filter to HTP MSD data files (n = 477).  
    Data Exploration > Participant > Study Code = HTP.  
    Data Exploration > Biospecimen > Sample Type = Plasma.  
@@ -35,7 +33,7 @@ Dashboard > Cavatica Projects > Connect.
    Select the Cavatica Project to which you want to copy files.  
    Click on Copy files.  
 
-### Location: [Cavatica](https://cavatica.sbgenomics.com/)  
+#### Location: [Cavatica](https://cavatica.sbgenomics.com/)  
 >[!IMPORTANT]
 >Within Cavatica, ensure you are (still) connected to the INCLUDE Data Hub:  
 >Account Settings > Dataset Access > INCLUDE DRS Server > Connect / Reconnect.  
@@ -44,6 +42,7 @@ Dashboard > Cavatica Projects > Connect.
    The copied files should now be available in the *Files* tab.  
 
 ## Running an analysis in Cavatica using 'Data Studio'
+#### Location: [Cavatica](https://cavatica.sbgenomics.com/)  
 1. Start an *Analysis* instance.  
 
    a. New *Analysis*:  
