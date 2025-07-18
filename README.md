@@ -100,9 +100,9 @@ Dashboard > Cavatica Projects > Connect.
 >  Saving of these files upon termination ~~may~~ will take several minutes.
 >
 >* How to get sample metadata:  
->  Option 1:  
+>  **Option 1**:  
 >    In your Cavatica project, go to the <ins>*Files*</ins> tab, select the appropriate files, then click '...' (More actions) and select 'Generate metadata manifest (CSV or TSV)'. A new manifest file containing metadata will appear in your files list.  
->  Option 2:  
+>  **Option 2**:  
 >    On the INCLUDE Data hub, once you have selected data files, click on the *Manifest* button on the <ins>*Data Files*</ins> tab: Select all files that you want to analyze, and download the resulting file.  
 >    Next, go to the <ins>*Participants*</ins> tab: Select all Participants and click on the ** button, and download the resulting file.  
 >    Finally, upload these files to your Cavatica project.
