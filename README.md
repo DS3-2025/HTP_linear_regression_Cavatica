@@ -28,8 +28,8 @@ Dashboard > Cavatica Projects > Connect.
    Data Exploration > Biospecimen > Sample Type = Plasma.  
    Data Exploration > Data File > Experimental Strategy = Multiplex Immunoassay.  
    May want to save Filter...  
-3. Go to the <ins>Data Files</ins> tab: Select all files that you want to analyze (should be 477).  
-4. Click on *Analyse in Cavatica* button.  
+3. Go to the <ins>*Data Files*</ins> tab: Select all files that you want to analyze (should be 477).  
+4. Click on the *Analyse in Cavatica* button.  
    Select the Cavatica Project to which you want to copy files.  
    Click on *Copy files*.  
 
@@ -39,14 +39,14 @@ Dashboard > Cavatica Projects > Connect.
 >Account Settings > Dataset Access > INCLUDE DRS Server > Connect / Reconnect.  
 
 5. Go to the project to which you copied the files.  
-   The copied files should now be available in the *Files* tab.  
+   The copied files should now be available in the <ins>*Files*</ins> tab.  
 
 ## Running an analysis in Cavatica using 'Data Studio'
 #### Location: [Cavatica](https://cavatica.sbgenomics.com/)  
 1. Start an *Analysis* instance.  
 
    a. New *Analysis*:  
-      - Go to *Data Studio* tab > Create new analysis.  
+      - Go to the <ins>*Data Studio*</ins> tab > Create new analysis.  
       - Set analysis name (e.g. "HTP linear regression").  
       - Select RStudio as your 'Environment' (JupyterLab is also available).  
       - Select latest R version in 'Environment setup' (eg R 4.4.0 - BioC 3.19).  
@@ -75,6 +75,7 @@ Dashboard > Cavatica Projects > Connect.
       - Once project opens in RStudio, in R console run `renv::restore()` to restore project and re-install required packages.  
 
 3. Open analysis R script(s) and work as usual. 
+<!-- NEED TO ADD DETAILS ABOUT HOW TO GET METADATA DIRECTLY FROM FILES IN CAVATICA - Sex is missing? -->
 
 4. Copy R Project to `/sbgenomics/output-files/` for later access/download (see notes below).  
 
@@ -97,3 +98,16 @@ Dashboard > Cavatica Projects > Connect.
 >  `/sbgenomics/output-files/`  
 >  Any files or dirs copied to this location **will not be accessible until after the Data Studio instance is terminated**.  
 >  Saving of these files upon termination ~~may~~ will take several minutes.
+>
+>* How to get sample metadata:
+>  Option 1:
+>  In your Cavatica project, go to the <ins>*Files*</ins> tab, select the appropriate files, then click '...' (More actions) and select 'Generate metadata manifest (CSV or TSV)'. A new manifest file containing metadata will appear in your files list.  
+>  
+>  Option 2:
+>  On the INCLUDE Data hub, once you have selected data files, click on the *Manifest* button on the <ins>*Data Files*</ins> tab: Select all files that you want to analyze, and download the resulting file.  
+>  Next, go to the <ins>*Participants*</ins> tab: Select all Participants and click on the ** button, and download the resulting file.  
+>  Finally, upload these files to your Cavatica project.
+
+
+
+
