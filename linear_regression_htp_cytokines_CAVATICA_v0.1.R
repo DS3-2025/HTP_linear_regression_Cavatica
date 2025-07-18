@@ -330,7 +330,7 @@ lm_results_simple <- regressions_simple |>
     log2FoldChange = estimate, # check for transformation and adjust accordingly
     pval = p.value,
     BHadj_pval = p.adjust(pval, method = "BH"),
-    Model = "betareg(proportion ~ Karyotype)" # Update accordingly
+    Model = "lm(log2(Value) ~ Karyotype)" # Update accordingly
     ) |> 
   arrange(pval)
 # Volcano plot
@@ -365,7 +365,7 @@ lm_results_multi_SexAgeSource <- regressions_multi_SexAgeSource |>
     log2FoldChange = estimate, # check for transformation and adjust accordingly
     pval = p.value,
     BHadj_pval = p.adjust(pval, method = "BH"),
-    Model = "betareg(proportion ~ Karyotype+Sex+Age+Source)" # Update accordingly
+    Model = "lm(log2(Value) ~ Karyotype + Sex + Age + Sample_source_code)" # Update accordingly
   ) |> 
   arrange(pval)
 # Volcano plot
